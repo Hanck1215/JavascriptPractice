@@ -5,3 +5,5 @@ Rabbit.prototype.speak = function(line) {
 
 
 let rabbit = new Rabbit("none") ;
+
+rabbit.speak("Fuck!") ;
