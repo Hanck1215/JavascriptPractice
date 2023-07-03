@@ -5,3 +5,4 @@ let protoRabbit = {
 }
 
 let killerRabbit = Object.create(protoRabbit) ; //以protoRabbit為原型創建一個killerRabit物件 
+killerRabbit.type = "killer" ;
