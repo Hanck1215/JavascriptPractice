@@ -1,0 +1,1 @@
+function Rabbit(type) { this.type = type ; }
