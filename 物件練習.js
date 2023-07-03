@@ -3,3 +3,5 @@ let protoRabbit = {
         console.log("This " + this.type + " rabbit says '" + line + "'.") ;
     }
 }
+
+let killerRabbit = Object.create(protoRabbit) ; //以protoRabbit為原型創建一個killerRabit物件 
